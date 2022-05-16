@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #fa2759;
+  --secondary: #fa2759;
+}
+* {
+  margin: unset;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(223, 238, 243);
+}
+.padding {
+  padding-top: 5rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}

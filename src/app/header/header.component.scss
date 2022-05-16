@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+  background-color: white;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      height: 60px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 80px;
+    }
+
+    div {
+      margin-right: 80px;
+
+      a {
+        margin-right: 40px;
+      }
+    }
+  }
+}
