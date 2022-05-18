@@ -1,4 +1,7 @@
 <app-header></app-header>
-<div class="container padding">
-  <app-free-card></app-free-card>
+<div class="flex-row">
+  <div class="container">
+    <app-free-card *ngFor="let i of [0, 1, 2, 3]" [img]="image[i]" [text]="postText[i]"></app-free-card>
+  </div>
+  <app-proposals></app-proposals>
 </div>
